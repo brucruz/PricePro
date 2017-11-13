@@ -1,0 +1,14 @@
+.footer {
+	padding: 10px;
+	background-color: #343A40;
+	text-align: center;
+}
+
+.footer a {
+	font-size: 20px;
+	color: grey;
+}
+
+.footer a:hover {
+	color: white;
+}

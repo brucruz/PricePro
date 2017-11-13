@@ -1,0 +1,27 @@
+.features-content {
+	/*display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 100vh;
+	flex-direction: row;*/
+}
+
+.features-cards {
+	padding: 0px;
+	position: relative;
+	height: 300px;
+}
+
+.features-cards-icon {
+	height: 80px;
+	width: 90px;
+	position: absolute;
+	top: 10px;
+	left: 30px;
+}
+
+.features-cards-description {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
