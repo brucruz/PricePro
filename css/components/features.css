@@ -4,10 +4,11 @@
 	justify-content: space-around;
 	height: 100vh;
 	flex-direction: row;*/
+	padding: 20px;
 }
 
 .features-cards {
-	padding: 0px;
+	padding: 10px;
 	position: relative;
 	height: 300px;
 }
@@ -22,6 +23,6 @@
 
 .features-cards-description {
 	position: absolute;
-	bottom: 10px;
+	top: 120px;
 	left: 10px;
 }

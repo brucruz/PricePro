@@ -58,14 +58,19 @@ a:hover {
 	justify-content: center;
 	height: 100vh;
 	flex-direction: column;
+	text-align: center;
 }
 
 #value_proposition h1 {
 	color: white;
+	font-weight: bold;
 }
 
 #value_proposition h2 {
-	color: white;
+	color: rgb(240, 240, 240);
+	font-weight: lighter;
+	opacity: 0.9;
+	padding-bottom: 20px;
 }
 
 #value_proposition h3 {
@@ -80,6 +85,12 @@ a:hover {
 	padding: 20px;
 }
 
-.form {
-	padding: 20px;
+#form {
+	margin: 20px;
+	padding: 60px 40px 80px 40px;
+	background-color: rgb(200,200,200);
+	border: 0.5px solid rgb(200,200,200);
+	box-shadow: 1px 1px 1px rgb(200,200,200);
+	border-radius: 10px;
+
 }
