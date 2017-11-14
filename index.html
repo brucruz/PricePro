@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 	<head>
 		<title>PricePro - Melhore sua Gestão de Preços</title>
 		<meta name= "keywords"	content="PricePro ajuda sua empresa a tomar decisões de preços mais lucrativas. Gerencie os preços e lucratividade de todo seu portfólio de produtos e receba sugestões de preços.">
@@ -26,6 +26,31 @@
 		<!-- Stylesheet CSS -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	
+		<!-- Start of Async Drift Code -->
+		<script>
+		!function() {
+		  var t;
+		  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+		  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+		  t.factory = function(e) {
+		    return function() {
+		      var n;
+		      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+		    };
+		  }, t.methods.forEach(function(e) {
+		    t[e] = t.factory(e);
+		  }), t.load = function(t) {
+		    var e, n, o, i;
+		    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+		    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+		    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+		  });
+		}();
+		drift.SNIPPET_VERSION = '0.3.1';
+		drift.load('kmc5s65pv4r5');
+		</script>
+		<!-- End of Async Drift Code -->
+
 	</head>
 	<body>
 		<div class="container">
@@ -108,13 +133,13 @@
 				<form>
 					<div class="row">
 						<div class="form-group col-xs-12 col-md-3">
-							<input type="text" class="form-control" id="signup-nome" placeholder="Nome" required>
+							<input type="text" class="form-control" id="signupNome" placeholder="Nome" required>
 						</div>
 						<div class="form-group col-xs-12 col-md-3">
-							<input type="text" class="form-control" id="signup-empresa" placeholder="Empresa" required>		
+							<input type="text" class="form-control" id="signupEmpresa" placeholder="Empresa" required>		
 						</div>
 						<div class="form-group col-xs-12 col-md-3">
-							<input type="email" class="form-control" id="signup-email" placeholder="nome@empresa.com" required>
+							<input type="email" class="form-control" id="signupEmail" placeholder="nome@empresa.com" required>
 						</div>
 						<div class="col-xs-12 col-md-3">
 							<button class="btn btn-success" type="submit">Enviar</button>
