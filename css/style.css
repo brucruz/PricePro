@@ -51,14 +51,15 @@ a:hover {
 
 #value_proposition {
 	/*background-image: url("img/calculator.jpeg");*/
-	background-image: linear-gradient(rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("https://picsum.photos/1000/600?image=0");
+	background-image: linear-gradient(rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url(img/pexels-photo-265087.jpeg);
 	background-size: cover;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
+	height: 100vh; 
 	flex-direction: column;
 	text-align: center;
+	margin: 0 5% 0 5%;
 }
 
 #value_proposition h1 {
@@ -79,10 +80,6 @@ a:hover {
 
 #value_proposition a{
 	line-height: 30px;	
-}
-
-.features-header {
-	padding: 20px;
 }
 
 #form {
