@@ -13,7 +13,8 @@
 	width: 90px;
 	position: absolute;
 	top: 10px;
-	left: 30px;
+	left: 50%;
+  	margin-left: -45px;
 }
 
 .features-cards-description {
