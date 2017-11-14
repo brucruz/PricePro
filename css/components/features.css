@@ -22,3 +22,11 @@
 	top: 120px;
 	left: 10px;
 }
+
+.features-cards-description h3 {
+	text-align: center;
+}
+
+.features-cards-description p {
+	text-align: center;
+}
