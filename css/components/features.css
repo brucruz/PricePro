@@ -1,0 +1,24 @@
+.features-content {
+	padding: 20px;
+}
+
+.features-cards {
+	padding: 10px;
+	position: relative;
+	height: 300px;
+}
+
+.features-cards-icon {
+	height: 80px;
+	width: 90px;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+  	margin-left: -45px;
+}
+
+.features-cards-description {
+	position: absolute;
+	top: 120px;
+	left: 10px;
+}

@@ -1,0 +1,96 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+@import url("components/footer.css");
+@import url("components/navigation_bar.css");
+@import url("components/features.css");
+
+
+/*CSS Stylesheet */
+
+body {
+	margin: 0;
+	background: rgb(240, 240, 240);
+	color: #202423;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+}
+
+h2 {
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	text-decoration: none;
+	color: green;
+}
+
+
+/* Custom design */
+
+.container {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: auto;
+	max-width: 2000px;
+}
+
+#logo {
+	height: 60px;
+	width: 200px;
+}
+
+#value_proposition {
+	/*background-image: url("img/calculator.jpeg");*/
+	background-image: linear-gradient(rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("https://picsum.photos/1000/600?image=0");
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
+	text-align: center;
+}
+
+#value_proposition h1 {
+	color: white;
+	font-weight: bold;
+}
+
+#value_proposition h2 {
+	color: rgb(240, 240, 240);
+	font-weight: lighter;
+	opacity: 0.9;
+	padding-bottom: 20px;
+}
+
+#value_proposition h3 {
+	color: white;
+}
+
+#value_proposition a{
+	line-height: 30px;	
+}
+
+.features-header {
+	padding: 20px;
+}
+
+#form {
+	margin: 20px;
+	padding: 60px 40px 80px 40px;
+	background-color: rgb(200,200,200);
+	border: 0.5px solid rgb(200,200,200);
+	box-shadow: 1px 1px 1px rgb(200,200,200);
+	border-radius: 10px;
+
+}
